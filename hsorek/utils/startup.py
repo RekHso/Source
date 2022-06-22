@@ -73,7 +73,7 @@ async def startupmessage():
         if BOTLOG:
             Config.hsorekLOGO = await hsorek.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/b81fe3118d5a1f987e6e2.jpg",
+                "https://telegra.ph/file/6ac204daaa3331b3000d6.jpg",
                 caption="🇮🇶 | عزيزي المستخدم تم تنصيب السورس الخاص بك بنجاح لمعرفه اوامر السورس؛ \n`.الاوامر`",
                 buttons=[
                     (Button.url("المطور", "tg://settings/"),)
